@@ -24,10 +24,6 @@ $xml = "
     <situacao>Ativo</situacao>
     <estoque>0,00</estoque>
  </produto>";
-// $posts = array (
-//     "apikey" => "d8480214b7a359a94ba4b3c57b61164347ede630ef4fbad6444b58b53a5dea170f9ddcc3",
-//     "xml" => rawurlencode($xml)
-// );
 
 
 $retorno = $api->executeUpdateProduct("2447703", "3 Whey Protein (900g) - Probiótica Sabor:Baunilha", "1");
